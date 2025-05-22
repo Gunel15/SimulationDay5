@@ -1,0 +1,13 @@
+﻿@using SimulationDay5.ViewModels.Positions
+@model PositionUpdateVM
+<form method="post">
+    <a class="btn btn-primary" asp-action="Index">GoToList</a>
+    <div class="mb-3">
+        <label asp-for="Name" class="form-label">Name</label>
+        <input asp-for="Name" class="form-control">
+        <span asp-validation-for="Name"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+

@@ -1,0 +1,23 @@
+﻿@using SimulationDay5.ViewModels.Persons
+@model PersonCreateVM
+<form method="post" enctype="multipart/form-data">
+    <a class="btn btn-primary" asp-action="Index">GoToList</a>
+    <div class="mb-3">
+        <label asp-for="FullName" class="form-label">FullName</label>
+        <input asp-for="FullName" class="form-control">
+        <span asp-validation-for="FullName"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="ImageFile" class="form-label">ImageFile</label>
+        <input asp-for="ImageFile" class="form-control">
+        <span asp-validation-for="ImageFile"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="PositionId" class="form-label">PositionId</label>
+        <select asp-for="PositionId" asp-items='new SelectList(ViewBag.Positions,"Id","Name")'></select>
+        <span asp-validation-for="PositionId"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+

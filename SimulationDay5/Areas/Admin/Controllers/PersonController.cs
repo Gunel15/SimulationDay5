@@ -36,18 +36,18 @@ namespace SimulationDay5.Areas.Admin.Controllers
             ViewBag.Positions = await _context.Positions.ToListAsync();
             if (!ModelState.IsValid)
                 return View(vm);
-            if (vm.ImageFile != null)
-            {
-                if (!vm.ImageFile.ContentType.StartsWith("image"))
-                    ModelState.AddModelError("ImageFile", "File must be an image ");
-                if (vm.ImageFile.Length > 1024 * 1024 * 2)
-                    ModelState.AddModelError("ImageFile", "File size must be less than 200kb");
-            }
-            if (!await _context.Persons.AnyAsync(x => x.Id == x.PositionId))
-            {
-                ModelState.AddModelError("PositionId", "Position does not exist");
-                return View(vm);
-            }
+            //if (vm.ImageFile != null)
+            //{
+            //    if (!vm.ImageFile.ContentType.StartsWith("image"))
+            //        ModelState.AddModelError("ImageFile", "File must be an image ");
+            //    if (vm.ImageFile.Length > 1024 * 1024 * 2)
+            //        ModelState.AddModelError("ImageFile", "File size must be less than 200kb");
+            //}
+            //if (!await _context.Persons.AnyAsync(x => x.Id == x.PositionId))
+            //{
+            //    ModelState.AddModelError("PositionId", "Position does not exist");
+            //    return View(vm);
+            //}
 
             string newImgName = Guid.NewGuid().ToString() + vm.ImageFile!.FileName;
             string path = Path.Combine("wwwroot", "imgs", "persons", newImgName);

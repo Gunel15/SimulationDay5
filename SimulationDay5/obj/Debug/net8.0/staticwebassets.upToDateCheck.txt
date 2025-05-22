@@ -1877,3 +1877,6 @@ wwwroot\assets\lib\waypoints\waypoints.min.js
 wwwroot\assets\lib\wow\wow.js
 wwwroot\assets\lib\wow\wow.min.js
 wwwroot\favicon.ico
+wwwroot\imgs\persons\5ce39e95-2795-4f49-8b5a-d3715b031b06download.jfif
+wwwroot\imgs\persons\a029b660-1190-423f-b0c7-12860d6d35a2download.jfif
+wwwroot\imgs\persons\cc00fbcb-429a-497d-90c9-f9250541cec7download (1).jfif
