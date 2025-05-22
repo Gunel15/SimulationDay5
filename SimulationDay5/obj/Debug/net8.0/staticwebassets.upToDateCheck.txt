@@ -1878,5 +1878,8 @@ wwwroot\assets\lib\wow\wow.js
 wwwroot\assets\lib\wow\wow.min.js
 wwwroot\favicon.ico
 wwwroot\imgs\persons\5ce39e95-2795-4f49-8b5a-d3715b031b06download.jfif
+wwwroot\imgs\persons\7630664e-4c06-437e-85c0-c9c50b68d45fdownload (2).jfif
 wwwroot\imgs\persons\a029b660-1190-423f-b0c7-12860d6d35a2download.jfif
 wwwroot\imgs\persons\cc00fbcb-429a-497d-90c9-f9250541cec7download (1).jfif
+wwwroot\imgs\persons\e73365d1-62b3-4909-ad10-0cebf78ceebedownload.jfif
+wwwroot\imgs\persons\f81f2b70-f638-418b-af69-49f0a9faca6ddownload (1).jfif

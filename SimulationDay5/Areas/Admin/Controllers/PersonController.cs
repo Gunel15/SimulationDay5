@@ -43,11 +43,12 @@ namespace SimulationDay5.Areas.Admin.Controllers
             //    if (vm.ImageFile.Length > 1024 * 1024 * 2)
             //        ModelState.AddModelError("ImageFile", "File size must be less than 200kb");
             //}
-            //if (!await _context.Persons.AnyAsync(x => x.Id == x.PositionId))
-            //{
-            //    ModelState.AddModelError("PositionId", "Position does not exist");
-            //    return View(vm);
-            //}
+            if (!await _context.Positions.AnyAsync(x => x.Id == vm.PositionId))
+            {
+                ViewBag.Positions = await _context.Positions.ToListAsync();        //bu hisse
+                ModelState.AddModelError("PositionId", "Position does not exist");
+                return View(vm);
+            }
 
             string newImgName = Guid.NewGuid().ToString() + vm.ImageFile!.FileName;
             string path = Path.Combine("wwwroot", "imgs", "persons", newImgName);
@@ -71,7 +72,7 @@ namespace SimulationDay5.Areas.Admin.Controllers
             ViewBag.Positions = await _context.Positions.ToListAsync();
             if (!id.HasValue || id.Value < 1)
                 return View();
-            var person = await _context.Persons.Select(x => new PersonUpdateVM
+            var person = await _context.Persons.Where(x=>x.Id==id).Select(x => new PersonUpdateVM   //where
             {
                 Id = x.Id,
                 FullName = x.FullName,
@@ -83,9 +84,14 @@ namespace SimulationDay5.Areas.Admin.Controllers
         [HttpPost]
         public async Task<IActionResult> Update(int? id, PersonUpdateVM vm)
         {
-            ViewBag.Positions = await _context.Positions.ToListAsync();
+            //ViewBag.Positions = await _context.Positions.ToListAsync();
+            if (!id.HasValue || id.Value < 1)
+                return View();
             if (!ModelState.IsValid)
                 return View(vm);
+            var person = await _context.Persons.FindAsync(id);    //qaldirdim yuxari
+            if (person == null)
+                return NotFound();
             if (vm.ImageFile != null)
             {
                 if (!vm.ImageFile.ContentType.StartsWith("image"))
@@ -97,19 +103,19 @@ namespace SimulationDay5.Areas.Admin.Controllers
                 string path = Path.Combine("wwwroot", "imgs", "persons", newImgName);
                 using FileStream fs = new FileStream(path, FileMode.OpenOrCreate);
                 await vm.ImageFile.CopyToAsync(fs);
+                person.ImageUrl = newImgName;   //bura
             }
-            if (!await _context.Persons.AnyAsync(x => x.Id == x.PositionId))
+            if (!await _context.Positions.AnyAsync(x => x.Id == vm.PositionId))
             {
+                ViewBag.Positions = await _context.Positions.ToListAsync();
                 ModelState.AddModelError("PositionId", "Position does not exist");
                 return View(vm);
             }
-            var person=await _context.Persons.FindAsync(id);
-            if (person == null)
-                return NotFound();
+          
             person.FullName=vm.FullName;
-            person.Id=vm.Id;
-            person.PositionId=vm.PositionId;
+            person.PositionId=vm.PositionId;   //id beraber eleme
             
+           
             await _context.SaveChangesAsync();
             return RedirectToAction("Index");
 
@@ -122,7 +128,7 @@ namespace SimulationDay5.Areas.Admin.Controllers
             if (!id.HasValue || id.Value < 1)
                 return BadRequest();
             var result = await _context.Persons.Where(x => x.Id == id).ExecuteDeleteAsync();
-            if (result == null) return NotFound();
+            if (result == 0) return NotFound();
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }

@@ -69,7 +69,7 @@ namespace SimulationDay5.Areas.Admin.Controllers
             if (!id.HasValue || id.Value < 1)
                 return BadRequest();
             var result = await _context.Positions.Where(x => x.Id == id).ExecuteDeleteAsync();
-            if (result==null) return NotFound();
+            if (result==0) return NotFound();
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }

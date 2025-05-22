@@ -22560,6 +22560,18 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"uyf58ag5gs"},{"Name":"integrity","Value":"sha256-6m98u9QqwUrP4FyDpsSfVOXv2MEruI1Dmu9Ig9VLK60="},{"Name":"label","Value":"_content/SimulationDay5/imgs/persons/5ce39e95-2795-4f49-8b5a-d3715b031b06download.jfif"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7386"},{"Name":"Content-Type","Value":"image/pjpeg"},{"Name":"ETag","Value":"\u00226m98u9QqwUrP4FyDpsSfVOXv2MEruI1Dmu9Ig9VLK60=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 10:49:21 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SimulationDay5/imgs/persons/7630664e-4c06-437e-85c0-c9c50b68d45fdownload (2).54c54qnkz8.jfif">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imgs\persons\7630664e-4c06-437e-85c0-c9c50b68d45fdownload (2).jfif'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"54c54qnkz8"},{"Name":"integrity","Value":"sha256-a5d2oqA/tDuFzFneTmRS4U7fDBhyC6zFCw3U3KoT1cg="},{"Name":"label","Value":"_content/SimulationDay5/imgs/persons/7630664e-4c06-437e-85c0-c9c50b68d45fdownload (2).jfif"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4025"},{"Name":"Content-Type","Value":"image/pjpeg"},{"Name":"ETag","Value":"\u0022a5d2oqA/tDuFzFneTmRS4U7fDBhyC6zFCw3U3KoT1cg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 13:36:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SimulationDay5/imgs/persons/7630664e-4c06-437e-85c0-c9c50b68d45fdownload (2).jfif">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imgs\persons\7630664e-4c06-437e-85c0-c9c50b68d45fdownload (2).jfif'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-a5d2oqA/tDuFzFneTmRS4U7fDBhyC6zFCw3U3KoT1cg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"4025"},{"Name":"Content-Type","Value":"image/pjpeg"},{"Name":"ETag","Value":"\u0022a5d2oqA/tDuFzFneTmRS4U7fDBhyC6zFCw3U3KoT1cg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 13:36:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/SimulationDay5/imgs/persons/a029b660-1190-423f-b0c7-12860d6d35a2download.jfif">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imgs\persons\a029b660-1190-423f-b0c7-12860d6d35a2download.jfif'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -22583,6 +22595,30 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-KHxb7ZF9Rh4nW46phgGfp/qLEkBFiAGRN1RabGimrFc="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"7327"},{"Name":"Content-Type","Value":"image/pjpeg"},{"Name":"ETag","Value":"\u0022KHxb7ZF9Rh4nW46phgGfp/qLEkBFiAGRN1RabGimrFc=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 10:49:56 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SimulationDay5/imgs/persons/e73365d1-62b3-4909-ad10-0cebf78ceebedownload.jfif">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imgs\persons\e73365d1-62b3-4909-ad10-0cebf78ceebedownload.jfif'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-6m98u9QqwUrP4FyDpsSfVOXv2MEruI1Dmu9Ig9VLK60="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"7386"},{"Name":"Content-Type","Value":"image/pjpeg"},{"Name":"ETag","Value":"\u00226m98u9QqwUrP4FyDpsSfVOXv2MEruI1Dmu9Ig9VLK60=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 13:35:59 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SimulationDay5/imgs/persons/e73365d1-62b3-4909-ad10-0cebf78ceebedownload.uyf58ag5gs.jfif">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imgs\persons\e73365d1-62b3-4909-ad10-0cebf78ceebedownload.jfif'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"uyf58ag5gs"},{"Name":"integrity","Value":"sha256-6m98u9QqwUrP4FyDpsSfVOXv2MEruI1Dmu9Ig9VLK60="},{"Name":"label","Value":"_content/SimulationDay5/imgs/persons/e73365d1-62b3-4909-ad10-0cebf78ceebedownload.jfif"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7386"},{"Name":"Content-Type","Value":"image/pjpeg"},{"Name":"ETag","Value":"\u00226m98u9QqwUrP4FyDpsSfVOXv2MEruI1Dmu9Ig9VLK60=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 13:35:59 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SimulationDay5/imgs/persons/f81f2b70-f638-418b-af69-49f0a9faca6ddownload (1).gih2fu5vpv.jfif">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imgs\persons\f81f2b70-f638-418b-af69-49f0a9faca6ddownload (1).jfif'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"gih2fu5vpv"},{"Name":"integrity","Value":"sha256-KHxb7ZF9Rh4nW46phgGfp/qLEkBFiAGRN1RabGimrFc="},{"Name":"label","Value":"_content/SimulationDay5/imgs/persons/f81f2b70-f638-418b-af69-49f0a9faca6ddownload (1).jfif"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7327"},{"Name":"Content-Type","Value":"image/pjpeg"},{"Name":"ETag","Value":"\u0022KHxb7ZF9Rh4nW46phgGfp/qLEkBFiAGRN1RabGimrFc=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 13:35:41 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SimulationDay5/imgs/persons/f81f2b70-f638-418b-af69-49f0a9faca6ddownload (1).jfif">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imgs\persons\f81f2b70-f638-418b-af69-49f0a9faca6ddownload (1).jfif'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-KHxb7ZF9Rh4nW46phgGfp/qLEkBFiAGRN1RabGimrFc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"7327"},{"Name":"Content-Type","Value":"image/pjpeg"},{"Name":"ETag","Value":"\u0022KHxb7ZF9Rh4nW46phgGfp/qLEkBFiAGRN1RabGimrFc=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 13:35:41 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

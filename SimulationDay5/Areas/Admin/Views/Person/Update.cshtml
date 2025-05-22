@@ -14,7 +14,7 @@
     </div>
     <div class="mb-3">
         <label asp-for="PositionId" class="form-label">PositionId</label>
-        <select asp-for="PositionId" asp-items='new SelectList(ViewBag.Positions,"Id","Name")'></select>
+        <select asp-for="PositionId" class="form-select" asp-items='new SelectList(ViewBag.Positions,"Id","Name")'></select>
         <span asp-validation-for="PositionId"></span>
     </div>
 

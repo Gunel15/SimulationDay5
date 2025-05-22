@@ -33840,6 +33840,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imgs\persons\5ce39e95-2795-4f49-8b5a-d3715b031b06download.jfif'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imgs\persons\7630664e-4c06-437e-85c0-c9c50b68d45fdownload (2).jfif'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SimulationDay5</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SimulationDay5</BasePath>
+      <RelativePath>imgs/persons/7630664e-4c06-437e-85c0-c9c50b68d45fdownload (2).jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>54c54qnkz8</Fingerprint>
+      <Integrity>a5d2oqA/tDuFzFneTmRS4U7fDBhyC6zFCw3U3KoT1cg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imgs\persons\7630664e-4c06-437e-85c0-c9c50b68d45fdownload (2).jfif'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imgs\persons\a029b660-1190-423f-b0c7-12860d6d35a2download.jfif'))">
       <SourceType>Package</SourceType>
       <SourceId>SimulationDay5</SourceId>
@@ -33875,6 +33893,42 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imgs\persons\cc00fbcb-429a-497d-90c9-f9250541cec7download (1).jfif'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imgs\persons\e73365d1-62b3-4909-ad10-0cebf78ceebedownload.jfif'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SimulationDay5</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SimulationDay5</BasePath>
+      <RelativePath>imgs/persons/e73365d1-62b3-4909-ad10-0cebf78ceebedownload.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>uyf58ag5gs</Fingerprint>
+      <Integrity>6m98u9QqwUrP4FyDpsSfVOXv2MEruI1Dmu9Ig9VLK60=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imgs\persons\e73365d1-62b3-4909-ad10-0cebf78ceebedownload.jfif'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imgs\persons\f81f2b70-f638-418b-af69-49f0a9faca6ddownload (1).jfif'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SimulationDay5</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SimulationDay5</BasePath>
+      <RelativePath>imgs/persons/f81f2b70-f638-418b-af69-49f0a9faca6ddownload (1).jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>gih2fu5vpv</Fingerprint>
+      <Integrity>KHxb7ZF9Rh4nW46phgGfp/qLEkBFiAGRN1RabGimrFc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imgs\persons\f81f2b70-f638-418b-af69-49f0a9faca6ddownload (1).jfif'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>
